@@ -4,8 +4,12 @@ import {
   ProfileButton,
   RegisterButton,
 } from "@/components/buttons.component";
+import { authOptions } from "@/lib/auth";
+import { getServerSession } from "next-auth";
 
-export default function Home() {
+export default async function Home() {
+  const session = await getServerSession(authOptions);
+
   return (
     <main
       style={{
@@ -20,6 +24,9 @@ export default function Home() {
         <RegisterButton />
         <LogoutButton />
         <ProfileButton />
+
+        <h1>Server Session</h1>
+        <pre>{JSON.stringify(session)}</pre>
       </div>
     </main>
   );

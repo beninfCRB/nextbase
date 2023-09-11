@@ -6,6 +6,7 @@ specifiers:
   '@types/react': 18.2.21
   '@types/react-dom': 18.2.7
   autoprefixer: 10.4.15
+  bcryptjs: ^2.4.3
   eslint: 8.49.0
   eslint-config-next: 13.4.19
   next: 13.4.19
@@ -23,6 +24,7 @@ dependencies:
   '@types/react': 18.2.21
   '@types/react-dom': 18.2.7
   autoprefixer: 10.4.15_postcss@8.4.29
+  bcryptjs: 2.4.3
   eslint: 8.49.0
   eslint-config-next: 13.4.19_rngtr6f3b25lvetpihwplgecf4
   next: 13.4.19_biqbaboplfbrettd7655fr4n2y
@@ -565,6 +567,10 @@ packages:
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+    dev: false
+
+  /bcryptjs/2.4.3:
+    resolution: {integrity: sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==}
     dev: false
 
   /binary-extensions/2.2.0:
