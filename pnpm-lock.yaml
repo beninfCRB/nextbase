@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@prisma/client': ^5.2.0
+  '@types/bcryptjs': ^2.4.3
   '@types/node': 20.6.0
   '@types/react': 18.2.21
   '@types/react-dom': 18.2.7
   autoprefixer: 10.4.15
-  bcryptjs: ^2.4.3
   eslint: 8.49.0
   eslint-config-next: 13.4.19
   next: 13.4.19
@@ -20,11 +20,11 @@ specifiers:
 
 dependencies:
   '@prisma/client': 5.2.0_prisma@5.2.0
+  '@types/bcryptjs': 2.4.3
   '@types/node': 20.6.0
   '@types/react': 18.2.21
   '@types/react-dom': 18.2.7
   autoprefixer: 10.4.15_postcss@8.4.29
-  bcryptjs: 2.4.3
   eslint: 8.49.0
   eslint-config-next: 13.4.19_rngtr6f3b25lvetpihwplgecf4
   next: 13.4.19_biqbaboplfbrettd7655fr4n2y
@@ -290,6 +290,10 @@ packages:
     resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /@types/bcryptjs/2.4.3:
+    resolution: {integrity: sha512-XTnH9E/rp51aKGsiMtQCHV/owDLW2E9QAxI7ItpWWm6Gi6XO1e4o3VuEYDma0lbitj1vNOBj05Qk8l2BYoiN4A==}
     dev: false
 
   /@types/json5/0.0.29:
@@ -567,10 +571,6 @@ packages:
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
-    dev: false
-
-  /bcryptjs/2.4.3:
-    resolution: {integrity: sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==}
     dev: false
 
   /binary-extensions/2.2.0:
